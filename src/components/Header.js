@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+
 import '../App.css';
 
 
@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <div>
          <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <span style={{color: 'purple', fontWeight: '800'}}> 🚀 NASA's Picture of the Day 🛰 </span>
          </header>
         </div>
     )
